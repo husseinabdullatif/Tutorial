@@ -1,0 +1,102 @@
+//------------------- Global -----------------------------//
+.about-services-contact-show-case {
+  height: 100px;
+  background: url("../img/showcase.jpg") no-repeat 0 -300px;
+  border-bottom: 4px solid $main-color;
+  h1{
+    margin-top: 30px;
+  }
+}
+
+.about-services-contact-main-area {
+  padding-top: 40px;
+}
+
+//----------------------------------------------------------------------------------------------------------------//
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  .navbar-nav {
+    .fa {
+      font-size: 18px;
+    }
+  }
+}
+
+//------------------------------------ show-case --------------------------------------------------//
+#showcase {
+  background: url("../img/showcase.jpg") no-repeat 0 -100px;
+  min-height: 600px;
+  .container {
+    .row {
+      background-color: white;
+      margin-top: 40px;
+      opacity: 0.8;
+      border-radius: 5px;
+      padding: 20px;
+      h1 {
+        margin-top: 0;
+        font-size: 60px;
+        color: #585859;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+
+  }
+}
+
+//------------------------------------ features --------------------------------------------------//
+#features {
+  background-color: $main-color;
+  color: set-text-color($main-color);
+  padding: 40px;
+  i {
+    font-size: 60px;
+  }
+}
+
+//------------------------------------ main-area --------------------------------------------------//
+#main-area {
+  background-color: #E6EBF1;
+  a:hover {
+    color: white;
+  }
+  img {
+    width: 100%;
+  }
+  .panel-group {
+    margin-top: 120px;
+  }
+}
+
+//------------------------------------ newsletter --------------------------------------------------//
+#newsletter {
+  background-color: $main-color;
+  color: set-text-color($main-color);
+  input {
+    border: none;
+    border-radius: 0;
+    height: 40px;
+  }
+  form input[type="submit"] {
+    background-color: #13646B;
+  }
+  form input[type="submit"]:hover {
+    border: 1px solid white;
+  }
+}
+
+//------------------------------------ footer --------------------------------------------------//
+footer {
+  background-color: #13646B;
+  .container {
+    padding: 40px;
+    color: set-text-color(#13646B);
+  }
+}
+
+//------------------------------------ About.html --------------------------------------------------//
+
